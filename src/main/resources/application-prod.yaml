@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://ankitKaushik:1G4TXgV3Ym88Mgru@cluster1.wcqwxvg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1
+      database: journaldb
+      auto-index-creation: true
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 8081
+  servlet:
+    context-path: /journal
+
+
+
