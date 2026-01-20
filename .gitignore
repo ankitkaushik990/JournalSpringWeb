@@ -12,6 +12,8 @@ target/
 .settings
 .springBeans
 .sts4-cache
+.yaml
+.log
 
 ### IntelliJ IDEA ###
 .idea
@@ -33,4 +35,6 @@ build/
 .vscode/
 
 /src/main/resources/application.yaml
-/journalApp.log
+/**.log
+
+
